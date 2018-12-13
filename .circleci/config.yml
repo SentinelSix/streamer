@@ -49,7 +49,7 @@ jobs:
           password: $QUAY_PASSWORD
         environment:
           RELEASE_NAME: streamer-qa
-          RELEASE_NAMESPACE: default 
+          RELEASE_NAMESPACE: qa 
           HELM_CHART_NAME: ts-backend-chart
           HELM_VALUES_S3_FOLDER: streamer         
           HELM_VALUES_FILENAME: values.yaml
